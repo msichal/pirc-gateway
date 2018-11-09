@@ -121,6 +121,10 @@ var conn = {
 			} else if(e.which == 40) { // strzalka w dol
 				e.preventDefault();
 				gateway.arrowPressed('down');
+			} else if (e.shiftKey && e.which == 0x21) { //page up
+				gateway.prevTab();
+			} else if (e.shiftKey && e.which == 0x22) { //page down
+				gateway.nextTab();
 			}
 		});
 		

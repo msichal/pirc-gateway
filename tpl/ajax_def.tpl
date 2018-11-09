@@ -194,7 +194,7 @@
 				<table class="nostyle"><tr>
 					<!--<td style="width: 150px; text-align: right;"><span id="usernick" class="yournickname">{$nick}</span></td>-->
 					<td style="width: 10px;"><input type="image" src="/styles/img/plus.png" value="" class="completion" onClick="gateway.doComplete();$('#input').focus()" title="Uzupełnij nick lub polecenie [Tab]" /></td>
-					<td style="padding-right: 10px; padding-left: 5px;"> <input id="input" type="text" name="input" class="input" /></td>
+					<td style="padding-right: 10px; padding-left: 5px;"> <input id="input" type="text" name="input" class="input" autocomplete="off"/></td>
 					<td style="width: 10px;"><input type="image" src="/styles/img/smiley_mu.png" class="symbols" onClick="disp.symbolWindowShow()" title="Emotikony i symbole" /></td>
 					<td style="width: 10px;"><input type="image" src="/styles/img/kolorki.png" value="" class="insertColor" onClick="disp.colorWindowShow()" title="Kolory i formatowanie" /></td>
 					<td style="width: 10px;"><input type="submit" value="&bull;" class="submit" OnClick="gateway.enterPressed()" title="Wyślij [Enter]" /></td>
